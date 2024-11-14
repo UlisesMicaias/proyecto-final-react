@@ -1,0 +1,72 @@
+.itemDetail {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.itemImage {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.itemInfo {
+    flex: 1;
+    padding: 10px;
+    color: #333;
+}
+
+.itemTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.itemPrice,
+.itemGenre,
+.itemDuration,
+.itemDate,
+.itemDirector,
+.itemProductCompany {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.itemPrice {
+    color: #007bff;
+}
+
+.itemGenre,
+.itemDuration,
+.itemDate,
+.itemDirector,
+.itemProductCompany {
+    color: #555;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.backButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.backButton:hover {
+    background-color: #0056b3;
+}
+

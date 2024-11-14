@@ -1,0 +1,53 @@
+.summaryContainer {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    /* Texto en negro */
+    width: 300px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+    /* Texto verde para el título */
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    /* Texto en negro */
+}
+
+.item {
+    margin-bottom: 10px;
+    color: #000000;
+    /* Texto en negro */
+}
+
+strong {
+    font-weight: 600;
+}
+
+.closeButton {
+    background-color: #f44336;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.closeButton:hover {
+    background-color: #d32f2f;
+}

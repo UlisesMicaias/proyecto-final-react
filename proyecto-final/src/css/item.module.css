@@ -1,0 +1,42 @@
+.itemCard {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    text-align: center;
+}
+
+.itemImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.itemTitle {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.itemPrice {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.detailButton {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detailButton:hover {
+    background-color: #388e3c;
+}
