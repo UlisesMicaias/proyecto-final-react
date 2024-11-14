@@ -41,7 +41,7 @@ const Cart = () => {
             <h3 className={styles.totalPrice}>Total de la Orden: ${cartTotal}</h3>
             {cart.length > 0 && (
                 <button className={styles.checkoutButton} onClick={openCheckout}>
-                    Proceder al Checkout
+                    Comprar
                 </button>
             )}
             <Modal isOpen={isCheckoutOpen} onClose={closeCheckout}>

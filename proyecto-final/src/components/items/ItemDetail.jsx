@@ -16,8 +16,8 @@ const ItemDetail = ({ item, onAdd }) => {
                 <p className={styles.itemDirector}>Director: {item.director_name}</p>
                 <p className={styles.itemProductCompany}>Compañía: {item.production_company}</p>
                 <ItemQuantitySelector onAdd={onAdd} />
-                <Link to="/" className={styles.link}>
-                    <button className={styles.backButton}>Volver al listado</button>
+                <Link to="/cart" className={styles.link}>
+                    <button className={styles.backButton}>Ver carrito</button>
                 </Link>
             </div>
         </div>

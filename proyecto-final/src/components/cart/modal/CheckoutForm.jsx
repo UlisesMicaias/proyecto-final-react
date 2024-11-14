@@ -53,9 +53,6 @@ const CheckoutForm = ({ onOrderComplete }) => {
 
     return (
         <div className={styles.formContainer}>
-            <button className={styles.closeButton} onClick={() => setOrderId(null)}>
-                ✕
-            </button>
             <h3>Finalizar Compra</h3>
             <form onSubmit={handleSubmit}>
                 <label>Nombre:</label>
@@ -99,7 +96,7 @@ const CheckoutForm = ({ onOrderComplete }) => {
                     required
                 />
                 {error && <p className={styles.error}>{error}</p>}
-                <button type="submit">Realizar Compra</button>
+                <button className={styles.buttonBuy} type="submit">Finalizar Compra</button>
             </form>
         </div>
     );
