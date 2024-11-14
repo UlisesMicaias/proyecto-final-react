@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useCart } from "./CartContext";
 import Modal from "./modal/Modal";
 import CheckoutForm from "./modal/CheckoutForm";
-import OrderSummary from "./modal/OrderSummary";
+import Order from "./modal/Order";
 import styles from "../../css/cart.module.css";
 
 const Cart = () => {
@@ -50,7 +50,7 @@ const Cart = () => {
 
             {orderData && (
                 <Modal isOpen={true} onClose={() => setOrderData(null)}>
-                    <OrderSummary
+                    <Order
                         isOpen={true}
                         onClose={() => setOrderData(null)}
                         orderId={orderData.orderId}

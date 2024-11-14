@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../../css/orderSummary.module.css";
+import styles from "../../../css/order.module.css";
 
 const OrderSummary = ({ orderId, buyer, items, total, onClose }) => (
     <div className={styles.summaryContainer}>
